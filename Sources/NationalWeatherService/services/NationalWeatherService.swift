@@ -11,6 +11,8 @@ import FoundationNetworking
 #endif
 import GEOSwift
 
+@available(watchOS 3.0, *)
+
 public class NationalWeatherService {
     // Definitions
     public typealias GeoJSONHandler = (Result<GeoJSON, Error>) -> Void
