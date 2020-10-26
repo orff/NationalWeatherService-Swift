@@ -7,6 +7,7 @@ let package = Package(
     name: "NationalWeatherService",
     platforms: [
         .iOS(.v10),
+        .watchOS(.v4),
         .macOS(.v10_12)
     ],
     products: [
