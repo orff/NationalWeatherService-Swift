@@ -7,6 +7,8 @@
 
 import Foundation
 
+@available(watchOS 3.0, *)
+
 extension Forecast {
     public enum WindDirection: String {
         case n, nne, ne, ene, e, ese, se, sse, s, ssw, sw, wsw, w, wnw, nw, nnw

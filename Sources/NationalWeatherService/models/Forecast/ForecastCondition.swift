@@ -5,6 +5,8 @@
 //  Created by Alan Chu on 4/2/20.
 //
 
+@available(watchOS 3.0, *)
+
 import Foundation
 
 extension Forecast {

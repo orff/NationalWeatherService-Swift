@@ -7,6 +7,8 @@
 
 import Foundation
 
+@available(watchOS 3.0, *)
+
 public struct Point: Decodable {
     public enum CodingKeys: String, CodingKey {
         case cwa, gridX, gridY, forecast, forecastHourly, relativeLocation, timeZone, radarStation

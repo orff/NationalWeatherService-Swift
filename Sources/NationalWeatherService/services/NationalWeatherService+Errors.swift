@@ -7,6 +7,8 @@
 
 import Foundation
 
+@available(watchOS 3.0, *)
+
 extension NationalWeatherService {
     public enum APIError: Error {
         /// This error occurs when you request data not within the boundries of a National Weather Service office (i.e. not within the United States)
