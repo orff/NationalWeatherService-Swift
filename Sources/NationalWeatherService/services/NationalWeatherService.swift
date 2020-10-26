@@ -5,13 +5,13 @@
 //  Created by Alan Chu on 4/2/20.
 //
 
-@available(watchOS 3.0, *)
-
 import Foundation
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
 import GEOSwift
+
+@available(watchOS 3.0, *)
 
 public class NationalWeatherService {
     // Definitions

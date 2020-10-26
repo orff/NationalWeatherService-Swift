@@ -5,9 +5,9 @@
 //  Created by Alan Chu on 4/2/20.
 //
 
-@available(watchOS 3.0, *)
-
 import Foundation
+
+@available(watchOS 3.0, *)
 
 extension Forecast {
     public typealias Condition = Icon
