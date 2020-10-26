@@ -7,6 +7,8 @@
 
 import Foundation
 
+@available(watchOS 3.0, *)
+
 public struct Forecast: Decodable {
     public enum CodingKeys: String, CodingKey {
         case updated, generatedAt, validTimes, elevation, periods
